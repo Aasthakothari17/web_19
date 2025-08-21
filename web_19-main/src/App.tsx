@@ -37,14 +37,15 @@ function App() {
         return null;
     }
   };
-  function App() {
+   export default function App() {
     return (
-      <div>
-        Hello World
+      <div className="flex items-center justify-center h-screen bg-gray-900 text-white text-3xl">
+        🚀 Tailwind is working!
       </div>
     );
   }
-  return renderScreen();
+
+return renderScreen();
 }
 
 export default App;
