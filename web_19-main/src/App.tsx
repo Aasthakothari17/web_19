@@ -37,7 +37,7 @@ function App() {
         return null;
     }
   };
-   export default function App() {
+  function App() {
     return (
       <div className="flex items-center justify-center h-screen bg-gray-900 text-white text-3xl">
         🚀 Tailwind is working!
@@ -45,10 +45,9 @@ function App() {
     );
   }
 
-return renderScreen();
-}
+export default App; 
 
-export default App;
+
 
 
 
